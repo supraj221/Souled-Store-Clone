@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+
+*
+{
+  font-family: 'poppins';
+}
+
+.cont
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/wall2.jpg);
+  background-size:contain;
+  height: 100vh;
+}
+
+.card
+{
+  background-color: #003340;
+  color: white;
+  width: 30em;
+  height: 40em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img
+{
+  margin-top: -15em;
+  width: 15em;
+}
+
+.write-up img
+{
+  width: 10em;
+}
+
+.write-up 
+{
+  text-align: center;
+  height: 5em;
+  width: 20em;
+}
+

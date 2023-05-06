@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+
+.item-grid
+{
+  margin-top: 5em;
+  margin-bottom: 3em;
+  margin-left: 10em;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3em;
+  row-gap: 3em;
+}
+
+.item-card *
+{
+  margin: 0;
+  padding: 0;
+}
+
+.item-card
+{
+  width: 20em;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px lightgray;
+  transition-duration: 0.2s;
+}
+
+.item-card:hover
+{
+  transform: scale(1.01) translate(0%, -1%);
+  box-shadow: 3px 3px 6px lightgray;
+
+}
+
+.item-preview
+{
+  border-radius: 10px 10px 0px 0px;
+}
+
+.item-preview img
+{
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+
+.item-info
+{
+  font-family: 'Poppins', sans-serif;
+  padding: 0.1em 1em;
+}
+
+.item-price
+{
+  padding-bottom: 1em;
+}
+
+.item-price p
+{
+  line-height: 1.5em;
+  font-size: 0.9rem;
+  color: #737577;
+}
+
+.item-price span
+{
+  color: #58595b;
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+
+.item-name p 
+{
+  color: rgb(88, 92, 112);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.item-buy
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.addtc button
+{
+  background-color: black;
+  color: white;
+  padding: 0.5em 1.2em;
+  transition-duration: 0.3s;
+}
+
+.addtc button:hover
+{
+  color: black;
+  background-color: white;
+}
+
